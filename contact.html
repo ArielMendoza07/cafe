@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Shop</title>
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Ibarra+Real+Nova:wght@500&family=Open+Sans:wght@500&family=Rubik&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">The <span class="logo__bold">Coffee Shop</span>
+                    </h1>
+                </a>
+
+
+                <nav class="navegacion">
+                    <a href="aboutUs.html" class="navegacion__enlace">About Us</a>
+                    <a href="cafes.html" class="navegacion__enlace">Cafés</a>
+                    <a href="contact.html" class="navegacion__enlace">Contact Us</a>
+                </nav>
+            </div>
+
+            <div class="header__texto">
+                <h2 class="no margin">The Coffee Shop</h2>
+                <p class="no-margin">You wont want to miss this unique opportunity!</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contact us</h3>
+
+        <div class="contact-bg"></div>
+
+
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="name">Name</label>
+                <input 
+                class="campo__field"
+                id="name" 
+                type="text" 
+                placeholder="Your name"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">Email</label>
+                <input 
+                class="campo__field"
+                id="email"
+                type="email" 
+                placeholder="Your email"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="text">Message</label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    name="" 
+                    id="text">
+                   
+                </textarea>
+            </div>
+
+            <div class="campo">
+                <input 
+                value="Send" 
+                type="submit" 
+                class="boton boton--primario"
+                >
+            </div>
+        </form>
+    </main>
+
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">The <span class="logo__bold">Coffee Shop</span>
+                    </h1>
+                </a>
+            </div>
+        </div>
+    </footer>
+<script src="/JS/modernizer.js"></script>
+</body>
+</html>
