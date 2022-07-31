@@ -273,6 +273,13 @@ img:hover{
         padding-top: 3rem;
     }
 }
+@media (max-width: 768px) {
+    .centrar-contenido{
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+}
 .imagen-entrada{
     border-radius: 8rem;
 }
